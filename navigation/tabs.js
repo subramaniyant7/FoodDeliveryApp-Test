@@ -17,7 +17,7 @@ const Tab = createBottomTabNavigator();
 const TabBarCustomButton = ({ accessibilityState, children, onPress }) => {
 
     var isSelected = accessibilityState.selected
-
+    console.log('test')
     if (isSelected) {
         return (
             <View style={{ flex: 1, alignItems: "center" }}>
